@@ -1,0 +1,221 @@
+@media only screen and (min-width:300px){
+    header{font-family: 'Bree Serif', serif;
+    font-size:1.3em;
+    color:#2966c6;}
+    #wrapper {
+  display: grid;
+  grid-template-columns: 1fr 5px;
+  grid-template-rows: repeat(9,50px 5px);}
+
+.box{
+    margin:5px;}
+  
+    .a{
+   grid-column:1/2;
+        grid-row:1/4;
+        min-height:;
+        text-align:left;}
+.b{
+   grid-column:1/2;
+    grid-row:4/18;
+    min-height:300;
+    background-image:url(boye2mobilecopy.jpg);
+    background-position: center;
+        background-repeat:no-repeat;}
+.c{
+   grid-column:1/2;
+    grid-row:45/50;
+    background-image:url(dron1mobilecopy.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    min-height:350px;}
+.d{
+   grid-column:1/2;
+    grid-row:55/60;
+     min-height:350;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-image:url(rocky1mobilecopy.jpg);
+}
+.e{
+   grid-column:1/2;
+    grid-row:65/70;
+     min-height:350;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-image:url(sharon1mobilecopy.jpg);
+}
+.f{
+   grid-column:1/2;
+    grid-row:75/80;
+     min-height:350;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-image:url(chris1mobilecopy.jpg);
+}
+.g{
+   grid-column:1/2;
+    grid-row:85/90;
+     min-height:350px;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-image:url(dron2mobilecopy.jpg);
+}
+.h{
+   grid-column:1/2;
+    grid-row:95/100;
+     min-height:350px;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-image:url(boye1mobilecopy.jpg);
+}
+    
+    
+}
+
+
+@media only screen and (min-width:450px){
+    
+    #wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr 5px);
+  grid-template-rows: repeat(5,100px 5px);
+    
+
+}
+
+.box{
+    min-height:100px;
+    margin:5px;
+}
+.a{
+   grid-column:1/4;
+    grid-row:1/2;
+}
+.b{
+   grid-column:1/4;
+    grid-row:3/8;
+    background-image:url(boye2tabletcopy.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.c{
+   grid-column:1/2;
+    grid-row:9/12;
+    background-image:url(dron1tabletcopy.jpg);
+    background-repeat: no-repeat;   
+    background-position:center; 
+    min-height:400px;
+
+}
+.d{
+   grid-column:3/4;
+    grid-row:9/12;
+    background-image:url(sharon1tabletcopy.jpg);
+    min-height:300px;
+}
+.e{
+   grid-column:1/2;
+    grid-row:12/18;
+    background-image:url(rocky1tabletcopy.jpg);
+    min-height:300px;
+}
+.f{
+   grid-column:3/4;
+    grid-row:13/18;
+    min-height:400px;
+    background-image:url(chris1tabletcopy.jpg);
+}
+.g{
+   grid-column:1/2;
+    grid-row:18/20;
+    min-height:300px;
+    background-image:url(dron2tabletcopy.jpg);
+}
+.h{
+   grid-column:3/4;
+    grid-row:18/20;
+    min-height:400px;
+    background-image:url(boye1tabletcopy.jpg);
+}
+    
+}
+
+@media only screen and (min-width:1000px){
+    
+    #wrapper {
+        
+  display: grid;
+  grid-template-columns: repeat(4, 2fr 5px);
+  grid-template-rows: repeat(4,100px 5px);
+    
+
+}
+    
+    .box{
+    min-height:100px;
+    margin:5px;
+}
+    
+   .a{
+   grid-column:1/8;
+    grid-row:1/2;
+}
+.b{
+   grid-column:1/6;
+    grid-row:3/10;
+    min-height:400;
+    background-image:url(boye2desktopcopy.jpg);
+    background-repeat: no-repeat;   
+    background-position:center;
+    object-fit: fill;
+    
+}
+.c{
+   grid-column:7/8;
+    grid-row:3/12;
+    background-image:url(dron1desktopcopy.jpg);
+    background-repeat: no-repeat;   
+    background-position:center;
+}
+.d{
+   grid-column:1/4;
+    grid-row:13/14;
+    background-image:url(dron2desktopcopy.jpg);
+     background-repeat: no-repeat;   
+    background-position:center;
+}
+.e{
+   grid-column:1/2;
+    grid-row:11/12;
+    min-height:500;
+    background-image:url(rocky1desktopcopy.jpg);
+     background-repeat: no-repeat;   
+    background-position:center; 
+}
+.f{
+   grid-column:3/4;
+    grid-row:11/12;
+    min-height:300;
+    background-image:url(chrisdesktopcopy.jpg);
+     background-repeat: no-repeat;   
+    background-position:center; 
+}
+.g{
+   grid-column:5/6;
+    grid-row:11/12;
+    min-height:300;
+    background-image:url(sharon1desktopcopy.jpg);
+     background-repeat: no-repeat;   
+    background-position:center;
+}
+.h{
+   grid-column:5/8;
+    grid-row:13/14;
+    min-height:400;
+    background-image:url(boye1desktopcopy.jpg);
+    background-repeat: no-repeat;   
+    background-position:center;
+    
+}
+}
